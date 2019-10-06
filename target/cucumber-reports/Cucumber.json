@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify that the user can able to add the customer details in the guru99 telecom page",
+        "description": "",
+        "id": "checks-the-customer-registration-functionality;verify-that-the-user-can-able-to-add-the-customer-details-in-the-guru99-telecom-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36606934834,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in demo guru telecom page",
+            "match": {
+              "location": "StepDefinition.user_is_in_demo_guru_telecom_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12632589303,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks the add customer tab and enters the FirstName and LastName",
+            "match": {
+              "location": "StepDefinition.user_enters_the_FirstName_and_LastName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 658463027,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the Email Id and the address location",
+            "match": {
+              "location": "StepDefinition.user_enters_the_Email_Id_and_the_address_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175436943,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the Mobile Number",
+            "match": {
+              "location": "StepDefinition.user_enters_the_Mobile_Number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4231835353,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the submit button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6945017871,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the customer id is generated succesfully.",
+            "match": {
+              "location": "StepDefinition.the_customer_id_is_generated_succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checks the customer registration functionality",
+    "description": "",
+    "id": "checks-the-customer-registration-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/Downloads/eclipse/Divakar/CucumberFramework/src/test/resources/Login.feature",
+    "tags": []
+  }
+]

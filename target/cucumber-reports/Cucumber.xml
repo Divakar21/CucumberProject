@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="40.172983">
+<testcase classname="Checks the customer registration functionality" name="Verify that the user can able to add the customer details in the guru99 telecom page" time="40.172983">
+<system-out><![CDATA[Given User is in demo guru telecom page.....................................passed
+When User clicks the add customer tab and enters the FirstName and LastName.passed
+When User enters the Email Id and the address location......................passed
+When User enters the Mobile Number..........................................passed
+And User clicks the submit button...........................................passed
+Then the customer id is generated succesfully...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

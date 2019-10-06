@@ -1,5 +1,6 @@
 package org.test.steps;
 
+import java.util.List;
 import java.util.Scanner;
 
 import org.openqa.selenium.By;
@@ -10,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.cucumber.datatable.DataTable;
 
 public class StepDefinition2 {
 	static WebDriver driver;
